@@ -1,0 +1,27 @@
+/****Universal Styles****/
+
+/****Header****/
+
+h1 {
+	font-size: 1.6em;
+	margin: 0;
+}
+
+.navbar-header {
+	height: 75px;
+}
+
+.navbar > .container-fluid a.navbar-brand {
+	margin-left: 15px;
+	margin-top: 20px;
+	padding: 0;
+	width: 140px;
+	height: 31px;
+}
+
+/****End Header****/
+
+
+
+
+
