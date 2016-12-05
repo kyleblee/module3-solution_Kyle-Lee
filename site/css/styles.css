@@ -12,6 +12,10 @@ h1 {
 	height: 75px;
 }
 
+.container-fluid {
+	border-bottom: 1px solid #333;
+}
+
 .navbar > .container-fluid a.navbar-brand {
 	margin-left: 15px;
 	margin-top: 20px;
@@ -24,7 +28,53 @@ h1 {
 	background-color: #e7ddc6;
 }
 
+#bs-example-navbar-collapse-1 {
+	height: 92px;
+}
+
+.navbar-nav > li > a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#first-item {
+	margin-top: -10px;
+}
+
+#bs-example-navbar-collapse-1 > .navbar-nav > li > a {
+	border-bottom: 1px solid #333;
+	background-color: #efeeed;
+}
+
 /****End Header****/
+
+/****Media Queries****/
+
+/****XS Devices****/
+
+@media (max-width: 767px) {
+	
+/*Header*/
+
+	.container-fluid {
+		border-bottom: none;
+	}
+
+	.navbar-header {
+		border-bottom: 1px solid #333;
+	}
+
+	.navbar > .container-fluid a.navbar-brand {
+		margin-left: 30px;
+	}
+
+	button.navbar-toggle {
+		margin-top: 18px;
+	}
+
+/*End Header*/
+
+}
 
 
 
