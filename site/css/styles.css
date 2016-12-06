@@ -1,11 +1,22 @@
 /****Universal Styles****/
 
-/****Header****/
+/*Header*/
 
 h1 {
 	font-size: 1.6em;
 	margin: 0;
 	color: #e3685b;
+}
+
+h2 {
+	font-size: 1.8em;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	margin-top: 10px;
+	font-size: 1.2em;
 }
 
 .navbar-header {
@@ -14,6 +25,10 @@ h1 {
 
 .container-fluid {
 	border-bottom: 1px solid #333;
+}
+
+.navbar {
+	margin-bottom: 0;
 }
 
 .navbar > .container-fluid a.navbar-brand {
@@ -46,11 +61,25 @@ h1 {
 	background-color: #efeeed;
 }
 
-/****End Header****/
+/*End Header*/
+
+/*Content Section*/
+
+.container {
+	padding-left: 0;
+	padding-right: 0;
+	width: 97.5%;
+}
+
+.main-text-box {
+	background-color: #e7ddc6
+}
+
+/*End Content Section*/
 
 /****Media Queries****/
 
-/****XS Devices****/
+/**XS Devices**/
 
 @media (max-width: 767px) {
 	
