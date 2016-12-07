@@ -61,6 +61,10 @@ h3 {
 	background-color: #efeeed;
 }
 
+.navbar > a {
+	color: #e3685b;
+}
+
 /*End Header*/
 
 /*Content Section*/
@@ -73,6 +77,10 @@ h3 {
 
 .main-text-box {
 	background-color: #e7ddc6
+}
+
+.navbar-nav > li > a.text-center {
+	color: #e3685b;
 }
 
 /*End Content Section*/
@@ -102,6 +110,14 @@ h3 {
 	}
 
 /*End Header*/
+
+/*Main Content*/
+
+	.container {
+		width: 75%;
+	}
+
+/*End Main Content*/
 
 }
 
